@@ -219,7 +219,7 @@ export default function FlyersSession() {
       {/* Header */}
       <header className="flex flex-col md:flex-row items-center justify-between mb-8 gap-4 shrink-0">
         <div className="flex items-center gap-4">
-  <img src="/ACE-01.png" alt="ACE Logo" className="h-12 w-12 rounded-full object-cover shrink-0" />
+  <img src="/ACE-01.png" alt="ACE Logo" className="h-12 w-auto shrink-0" />
           <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center shadow-lg shadow-red-200">
             <Volume2 className="text-white w-8 h-8" />
           </div>
