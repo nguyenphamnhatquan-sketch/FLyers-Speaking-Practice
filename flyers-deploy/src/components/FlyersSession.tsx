@@ -122,10 +122,6 @@ export default function FlyersSession() {
 
   return (
     <div className="flex flex-col h-full bg-slate-50 font-sans text-slate-800 p-4 md:p-8 relative overflow-y-auto">
-      {/* ACE Logo */}
-      <div className="absolute top-4 left-4 z-50">
-        <img src="/ACE-01.png" alt="ACE Logo" className="h-14 w-auto" />
-      </div>
       {/* Report Modal */}
       <AnimatePresence>
         {showReportModal && (
@@ -222,7 +218,8 @@ export default function FlyersSession() {
 
       {/* Header */}
       <header className="flex flex-col md:flex-row items-center justify-between mb-8 gap-4 shrink-0">
-        <div className="flex items-center gap-4 pl-14">
+        <div className="flex items-center gap-4">
+  <img src="/ACE-01.png" alt="ACE Logo" className="h-12 w-12 rounded-full object-cover shrink-0" />
           <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center shadow-lg shadow-red-200">
             <Volume2 className="text-white w-8 h-8" />
           </div>
