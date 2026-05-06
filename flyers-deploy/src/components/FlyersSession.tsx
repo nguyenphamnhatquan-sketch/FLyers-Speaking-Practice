@@ -222,7 +222,7 @@ export default function FlyersSession() {
 
       {/* Header */}
       <header className="flex flex-col md:flex-row items-center justify-between mb-8 gap-4 shrink-0">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 pl-14">
           <div className="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center shadow-lg shadow-red-200">
             <Volume2 className="text-white w-8 h-8" />
           </div>
