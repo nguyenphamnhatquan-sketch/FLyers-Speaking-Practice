@@ -122,6 +122,10 @@ export default function FlyersSession() {
 
   return (
     <div className="flex flex-col h-full bg-slate-50 font-sans text-slate-800 p-4 md:p-8 relative overflow-y-auto">
+      {/* ACE Logo */}
+      <div className="absolute top-4 left-4 z-50">
+        <img src="/ACE-01.png" alt="ACE Logo" className="h-14 w-auto" />
+      </div>
       {/* Report Modal */}
       <AnimatePresence>
         {showReportModal && (
