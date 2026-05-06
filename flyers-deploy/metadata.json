@@ -1,0 +1,8 @@
+{
+  "name": "Flyers Speaking Buddy",
+  "description": "A friendly AI speaking coach to help students practice Cambridge Flyers Speaking Part 4 with voice-to-voice interaction.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
